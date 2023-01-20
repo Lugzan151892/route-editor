@@ -112,3 +112,22 @@
     transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 800px) {
+    .places_item {        
+        max-width: 200px;
+    }
+    .places_title {
+        max-width: 200px;        
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .places_item {        
+        max-width: 150px;
+    }
+    .places_title {
+        max-width: 150px;        
+        margin: 0 5px;
+        font-size: 12px;
+    }
+}
